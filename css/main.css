@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    background-color: #ff7978;
+    background-image: url('../images/bg-intro-desktop.png');
+    Font-size: 16px;
+    font-family: 'Poppins';
+}
+section.content 
+{
+    width: 100vw;
+    /* height: 50vw; */
+    display: flex;
+    flex-direction: row;
+
+}
+section.content > .column-texts 
+{
+    /* border: solid 1px black; */
+    color: aliceblue;
+    width: 770px;
+}
+section.content > .column-texts h2, section.content > .column-texts h3 
+{
+    position: relative;
+    top: 40%;
+    left: 25%;
+}
+section.content > .column-texts > h2 
+{
+    line-height: 41px;
+    font-weight: 600;
+    font-size: 46px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+section.content > .column-texts > h3 
+{
+    font-size: 15px;
+    font-weight: 400;
+    width: 460px
+}
+section.content  > .column-form 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 55px;
+    width: 770px;
+}
+section.content .column-form > form
+{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 25px;
+    width: 390px;
+    border-radius: 7px;
+    box-shadow: 0px 6px 2px #5252524f;
+}
+input
+{
+    height: 40px;
+    border: 1px solid rgba(132, 132, 132, 0.386);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 0 0 10px;
+}
+input#form-submit
+{
+    background-color: hsl(154, 59%, 51%);
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 0 0 0 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+input:focus
+{
+    outline: none;
+    border: 1px solid rgba(33, 33, 33, 0.592);
+}
+section.content .column-form > .title-form
+{
+    background-color: #5d54a3;
+    width: 440px;
+    text-align: center;
+    font-size: 13px;
+    color: antiquewhite;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin:  0 0 15px 0;
+    box-shadow: 0px 6px 2px #5252524f;
+}
+section.content .column-form > .title-form > h3 
+{
+    font-weight: 400;
+}
+section.content .column-form > .title-form > h3 > strong
+{
+    font-weight: 600;
+}
+section.content .column-form > .title-form, section.content .column-form > form
+{
+    position: relative;
+    top: 10%;
+}
+section.content .column-form > form > h6 
+{
+    text-align: center;
+    color: #c5c4cb;
+    font-size: 8px;
+}
+section.content .column-form > form > h6 > span
+{
+    color: hsl(0, 100%, 74%);
+}
+
+.errormsg {
+    border-color: hsl(0, 100%, 74%);
+}
+
+/* mensagens validacao */
+
+.validacaoFirstName {
+    display: none;
+    position: absolute;
+    top: 68px;
+    right: 35px;
+    font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+}
+.validacaoLastName {
+    display: none;
+    position: absolute;
+    top: 130px;
+    right: 35px;
+    font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+}
+.validacaoEmail {
+    display: none;
+    position: absolute;
+    top: 192px;
+    right: 35px;
+    font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+}
+.validacaoPassword {
+    display: none;
+    position: absolute;
+    top: 254px;
+    right: 35px;
+    font-size: 10px;
+    font-style: italic;
+    color: hsl(0, 100%, 74%);
+}
+
+.iconeExclamacaoFirstName {
+    display: none;
+    width: 15px;
+    position: absolute;
+    top: 38px;
+    right: 40px;
+}
+.iconeExclamacaoLastName {
+    display: none;
+    width: 15px;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+.iconeExclamacaoEmail {
+    display: none;
+    width: 15px;
+    position: absolute;
+    top: 162px;
+    right: 40px;
+}
+.iconeExclamacaoPassword {
+    display: none;
+    width: 15px;
+    position: absolute;
+    top: 224px;
+    right: 40px;
+}

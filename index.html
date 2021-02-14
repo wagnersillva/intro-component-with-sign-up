@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <title>Login</title>
+</head>
+<body>
+    <section class="content">
+        <div class="column-texts">
+            <h2>
+                Learn to code by watching others
+            </h2>
+            <h3>
+                See how experienced developers solve problems in real-time 
+                Watching scripted tutorials is great, but understanding how
+                developers think is invaluable.
+            </h3>
+        </div>
+        <div class="column-form">
+            <div class="title-form">
+                <h3><strong>Try it free 7 days</strong> then $20/mo. thereafter</h3> 
+            </div>
+            <form >
+                <input type="text"  name="FirstName" id="form-FirstName" placeholder="FirstName" >
+                    <img class="iconeExclamacaoFirstName" id="iconeExclamacaoFirstName" src="./images/ponto-de-exclamacao.png" alt="error">
+                    <span class="validacaoFirstName" id="validacaoFirstName">FirstName cannot be empty</span>
+                <input type="text" name="LastName" id="form-LastName" placeholder="LastName" >
+                    <img class="iconeExclamacaoLastName" id="iconeExclamacaoLastName" src="./images/ponto-de-exclamacao.png" alt="error">
+                    <span class="validacaoLastName" id="validacaoLastName">LastName cannot be empty</span>
+                <input type="email" name="email" id="form-email" placeholder="email" >
+                    <img class="iconeExclamacaoEmail" id="iconeExclamacaoEmail" src="./images/ponto-de-exclamacao.png" alt="error">
+                    <span class="validacaoEmail" id="validacaoEmail">Email cannot be empty</span>
+                    <span class="validacaoEmail" id="validacaoEmail2">Looks like this is not an email</span>
+                <input type="password" name="password" id="form-password" placeholder="password">
+                    <img class="iconeExclamacaoPassword" id="iconeExclamacaoPassword" src="./images/ponto-de-exclamacao.png" alt="error">
+                    <span class="validacaoPassword" id="validacaoPassword">Password cannot be empty</span>
+                <input type="submit"  id="form-submit" value="CLAIM YOUR FREE TRIAL">
+                <h6>By clicking the button, you are agreeing to our <span>Terms and services</span></h6>
+            </form>
+        </div>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
